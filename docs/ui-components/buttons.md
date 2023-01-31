@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Buttons
+title: Buttonstest
 parent: UI Components
 nav_order: 2
 ---
@@ -9,6 +9,7 @@ nav_order: 2
 
 
 本页会为您介绍如何正确使用IPG控制台
+
 buttons
 
 
