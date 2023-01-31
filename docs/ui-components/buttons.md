@@ -20,27 +20,35 @@ IP-guard 通过灵活有力的管理，在保持企业活力的前提下规范�
 <img width="960" alt="zhengti" src="https://user-images.githubusercontent.com/123937106/215722333-2a81fe57-2356-4a60-ad21-5cb34b2ffc85.png">
 
 菜单栏：包含了本系统的所有菜单，是各功能窗口的入口
+
 <img width="840" alt="caidanlan" src="https://user-images.githubusercontent.com/123937106/215722625-dcedefff-efa4-48a5-924d-f824e874c90d.png">
 
 工具栏：包含了一些常用的功能
+
 <img width="489" alt="gongjulan" src="https://user-images.githubusercontent.com/123937106/215722704-0b778891-0147-466f-90fd-8e9acdfbf24b.png">
 
 计算机栏：位于窗口的左边，显示所有安装了客户端的计算机列表和以及分组信息
+
 <img width="135" alt="jisuanji" src="https://user-images.githubusercontent.com/123937106/215722820-513519d1-ed90-4f15-a4e4-5787813bce1c.png">
 
 用户栏：位于窗口的左边，显示所有客户端机器登录的用户列表以及分组信息
+
 <img width="135" alt="yonghu" src="https://user-images.githubusercontent.com/123937106/215722922-203307ff-8106-4404-8b89-b3366b1c69b8.png">
 
 导航菜单：位于工具栏的下方，可以快速导航到具体功能
+
 <img width="666" alt="xuanxiangka" src="https://user-images.githubusercontent.com/123937106/215723045-65b41702-4396-40e6-b6f9-c7e8e780c49f.png">
 
 数据显示区：是本系统的核心视图，所有的数据都在数据显示区查看
+
 <img width="667" alt="shuju" src="https://user-images.githubusercontent.com/123937106/215723231-9afdf51c-673f-4b98-bcf3-5d932499f556.png">
 
 筛选栏：在统计、日志、即时通讯、邮件记录中均有查询栏，并且有一些通用查询条件
+
 <img width="143" alt="shaixuan" src="https://user-images.githubusercontent.com/123937106/215723420-9e0374ca-6ef9-4b50-8543-8cefa8a1cf2d.png">
 
 状态栏：位于窗口的最下方，显示当前功能的状态信息
+
 <img width="948" alt="zhuangtai" src="https://user-images.githubusercontent.com/123937106/215723521-073f0aed-fa21-429a-9cb9-365816247764.png">
 
 
