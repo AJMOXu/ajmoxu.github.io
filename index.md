@@ -1,7 +1,9 @@
 ---
-title: Home
-layout: home
+title: IPG
+layout: ipg
 ---
+
+本页会为您介绍如何正确使用IPG控制台
 
 This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
 
@@ -30,12 +32,3 @@ To get started with creating a site, just click "[use this template]"!
 [use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
 
 
-
----
-title: Home
-layout: home
----
-
-1
-
-----
