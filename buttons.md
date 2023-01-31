@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 广告位招租
-parent: home
+parent: HOME
 nav_order: 1
 ---
 
