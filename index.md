@@ -1,5 +1,5 @@
 ---
-title: Ipg
+title: IPG
 layout: home
 ---
 
