@@ -9,6 +9,8 @@ nav_order: 2
 
 
 本页会为您介绍如何正确使用IPG控制台
+buttons
+
 
 This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
 
