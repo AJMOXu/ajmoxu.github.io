@@ -1,6 +1,6 @@
 ---
-title: IPG
-layout: ipg
+title: Ipg
+layout: home
 ---
 
 本页会为您介绍如何正确使用IPG控制台
