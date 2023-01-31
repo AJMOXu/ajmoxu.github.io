@@ -1,43 +1,90 @@
 ---
 layout: default
-title: 基本功能
+title: 功能介绍
 parent: IP-Guard
 nav_order: 1
 ---
 
+IP-guard 基于系统管理思想和安全实践经验，全面考虑可能造成信息破坏及外
+泄的各个方面，保护企业信息不被人为外泄、非法盗取、恶意篡改，帮助企业
+对信息安全进行系统规划及管理。
 
+IP-guard 通过灵活有力的管理，在保持企业活力的前提下规范终端行为，提升
+企业执行力；管理人员通过单一控制台随时了解各台计算机运行状态，并进行
+系统安全管理及资产管理。
 
+IP-guard 的主要功能包括：
+{: fs-7}
 
-本页会为您介绍如何正确使用IPG控制台
+应用程序管控
+记录应用程序使用的日志；
+统计应用程序使用时间和百分比；
+控制应用程序的运行。
 
-buttons
+网页浏览管控
+记录浏览网页的网址和标题；
+统计网页浏览的时间和百分比；
+控制访问指定的网站或网页。
 
+文档操作管控
+记录所有文档的操作信息，包括不同类型存储设备以及各种文档操作；
+记录其他计算机对本机共享目录的删除和修改操作；
+可设定灵活的多种操作权限，控制文档的读取，修改和删除操作；
+重要文档的复制和删除操作，可对文档进行备份。
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+打印内容管控
+记录所有打印任务的日志；
+完整记录文档打印映像；
+控制打印操作。
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+设备管控
+控制各种计算机设备的使用；
+对任何新增加的设备进行控制。
 
-More specifically, the created site:
+网络控制
+根据客户端类别以及网络地址和端口的类别进行网络通讯控制；
+检测网络内的非法计算机，阻止非法计算机接入网络。
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+网络流量管控
+记录网络通讯流量，并按照不同的口径进行统计；
+根据不同的地址和端口范围，在不同时间段内实现流量控制。
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+屏幕监控
+实时查看客户端的屏幕快照；
+记录客户端的历史屏幕记录，根据不用的应用程序采用不同的记录频率；
+可将屏幕历史转换为通用视频文件进行播放。
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+邮件管控
+记录邮件收发的日志以及邮件的完整内容和附件的；
+根据策略控制邮件的发送。
 
-To get started with creating a site, just click "[use this template]"!
+即时通讯控制
+完整记录流行的即时通讯工具的对话时间，联系人和对话内容；
+控制通过即时通讯工具向外发送文档；
+对向外发送的文档进行备份。
 
-----
+资产管理
+自动扫描每台终端的软硬件资产信息，详尽记录资产变更情况；
+可自定义资产属性和类别对软硬件资产和非 IT 资产进行管理；
+自动扫描微软产品补丁安装情况，对补丁进行自动分发和安装；
+自动扫描客户端的安全漏洞，提供分析报告和解决方案；
+自动部署和安装软件、指定程序或派送文档。
 
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
+远程维护
+实时查看客户端的运行信息，可执行远程操作；
+远程连接到客户端桌面，进行远程协助；
+支持进行远程文件传送。
 
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+移动存储控制
+记录移动存储设备在网络内的使用，设定不同的访问权限，控制移动存储读取；
+对移动存储设备中的文档进行自动加解密，在未经授权的计算机上无法读取。
 
+文档透明加解密
+重要文档自动强制加密；
+设定加密文档的截屏、打印、复制/粘贴、拖拽、邮件发送等操作权限；
+根据企业部门分级设定文档使用的分级授权管理权限；
+解密外发申请审计；
+离线权限控制、外发文档权限控制；
+加密文档操作审计与备份。
 
 
