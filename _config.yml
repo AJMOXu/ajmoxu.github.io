@@ -1,8 +1,8 @@
 title: AJMOXU
-description: AJMOXU2
-theme: 1
+description: A starter template for a Jeykll site using the Just the Docs theme!
+theme: just-the-docs
 
-url: https://ajmoxu.github.io
+url: https://just-the-docs.github.io
 
 aux_links:
-  AJMOXU: https://ajmoxu.github.io
+  Template Repository: https://github.com/just-the-docs/just-the-docs-template
