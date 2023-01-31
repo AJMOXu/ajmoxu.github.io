@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Buttonstest
-parent: UI Components
-nav_order: 2
+title: 基本功能
+parent: IP-Guard
+nav_order: 1
 ---
 
 
