@@ -1,13 +1,15 @@
 ---
 layout: default
 title: UI Components
-nav_order: 2
+nav_order: 1
 has_children: true
 ---
 
 
 
 本页会为您介绍如何正确使用IPG控制台
+
+test
 
 This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
 
