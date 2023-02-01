@@ -86,7 +86,6 @@ IP-guard 的主要功能包括：
 
 设备管控
 {: .fs-6 }
-<img width="960" alt="zhengti" src="https://user-images.githubusercontent.com/123937106/215722273-68cfa169-9a53-4605-a140-f8e9a5127f31.png">
 
 控制各种计算机设备的使用；
 对任何新增加的设备进行控制。
