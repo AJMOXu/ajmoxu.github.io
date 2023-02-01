@@ -73,5 +73,32 @@ nav_order: 2
 <img width="1280" alt="shujubeifen3" src="https://user-images.githubusercontent.com/123937106/215960298-196cb0a7-a1e7-4a5c-8f67-876b69b27a37.png">
 
 
+在此处可设置定期自动备份，以下是一个备份案例：
+- 每月1日下午13:38分自动备份上一个月的所有数据信息
+- 备份数据存储至 C:\ 盘 根目录下
+- 同时删除原有的数据，腾出主服务器存储目录空间
+<img width="1280" alt="shujubeifen4" src="https://user-images.githubusercontent.com/123937106/215960988-60503345-1696-436f-8d3d-25b635b9e1e9.png">
+
+需要注意的是，如果您选择了备份数据至网络路径，需要设置此策略的PC和服务器均能访问到指定网络路径
+{: 	.text-red-300 }
+
+在此处可加载指定备份，加载的备份不会占用主服务器存储空间，就像打开指定位置的文件一样
+<img width="1280" alt="shujubeifen5" src="https://user-images.githubusercontent.com/123937106/215961344-70e7ed65-bfb7-4e93-ba74-d7896d6feaa2.png">
+
+
+组织架构同步（LDAP，AD域等）
+{: .fs-5 }
+
+<img width="1280" alt="jiagoutongbu" src="https://user-images.githubusercontent.com/123937106/215961632-b39ce36f-e001-4449-bd45-252686af50c1.png">
+
+组织架构同步示例（AD域）：
+- 同步AJMOXu.com的所有域组织架构到IPG根组织架构
+- 自动根据AJMOXu.com域中用户的组织架构位置，将用户所登陆的客户端计算机同步到IPG组织架构
+- 对于没有对象的OU不进行导入
+- 自动将用户初次登录的计算机与用户关联
+<img width="1280" alt="jiagoutongbu3" src="https://user-images.githubusercontent.com/123937106/215963016-b07b2806-a18d-4833-a7c5-f05f54d3b7e0.png">
+
+需要注意的是，用户初次登陆的客户端与用户会自动关联，此关联信息影响到此客户端在IPG的计算机组织架构中的位置，并且关联信息不会自动清除，需要手动清除
+{: 	.text-red-300 }
 
 
