@@ -34,3 +34,44 @@ nav_order: 2
 服务器各功能设置
 {: .fs-6 }
 
+设置管理员账号
+{: .fs-5 }
+
+<img width="1280" alt="zhanghao" src="https://user-images.githubusercontent.com/123937106/215958079-56274cbb-fc70-46d5-9fba-a43ea91b0820.png">
+
+<img width="1280" alt="zhanghao2" src="https://user-images.githubusercontent.com/123937106/215958386-42af8f4d-6304-4203-8844-5f8854642289.png">
+
+<img width="1280" alt="zhuoguan3" src="https://user-images.githubusercontent.com/123937106/215958685-2c232369-ff71-453a-9a4c-0e9fe9509b60.png">
+
+根据账号设置审批流程
+{: .fs-5 }
+
+<img width="1280" alt="zhuoguanshenpi" src="https://user-images.githubusercontent.com/123937106/215958997-8e6b5ee4-eb87-4a1a-91b8-80e363f92e53.png">
+
+在此处设置桌管审批范围与内容
+<img width="1280" alt="zhuoguanshenpi2" src="https://user-images.githubusercontent.com/123937106/215959149-6ba29f3f-4e40-4210-8196-b909fdfc8b1a.png">
+
+在此处设置桌管审批流程与对象
+<img width="1280" alt="zhuoguanshenpi3" src="https://user-images.githubusercontent.com/123937106/215959307-fbf89e3b-80b1-407c-a879-a427503c39aa.png">
+
+需要注意的是，审批流程是自上而下匹配的，如一个客户端的申请有多条审批流程可匹配时，只匹配自上而下第一个符合设置的流程
+{: 	.text-red-300 }
+
+
+设置备份数据
+{: .fs-5 }
+
+<img width="1280" alt="shujubeifen" src="https://user-images.githubusercontent.com/123937106/215960035-2e3a0c64-0557-417f-b248-6770c496d201.png">
+
+在此处可设置需要备份的内容与范围
+<img width="1280" alt="shujubeifen2" src="https://user-images.githubusercontent.com/123937106/215960070-89ef8a29-7ff8-4319-96ce-d174d5a63f31.png">
+
+以下是一个备份示例：
+- 备份自2022\04\01以来所有的文档操作日志以及文档操作日志备份的文件副本
+- 备份数据存储至 N:\ 盘 根目录下
+- 同时删除原有的数据，腾出主服务器存储目录空间
+<img width="1280" alt="shujubeifen3" src="https://user-images.githubusercontent.com/123937106/215960298-196cb0a7-a1e7-4a5c-8f67-876b69b27a37.png">
+
+
+
+
