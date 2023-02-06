@@ -1,0 +1,18 @@
+---
+layout: default
+title: 慧眼风险审计报表
+parent: IP-Guard
+nav_order: 20
+---
+
+审计报表功能介绍
+{: .fs-6 }
+
+统计表如何设置
+{: .fs-6 }
+
+趋势表如何设置
+{: .fs-6 }
+
+邮件报告如何设置
+{: .fs-6 }
