@@ -14,12 +14,27 @@ nav_order: 3
 <img width="1280" alt="yingyongchengxu" src="https://user-images.githubusercontent.com/123937106/215986529-3e42fd85-d1ff-4d96-8c15-04afd81da225.png">
 
 
+软件安装策略设置
+{: .fs-6 }
+
+在选项卡：策略->软件安装管理 中找到此策略设置界面
+以下未策略设置示例：
+- 禁止所有管辖范围内客户端安装任何应用程序，仅允许安装360
+- 同时禁止所有管辖范围内客户端卸载任何应用
+<img width="1280" alt="软件安装管理" src="https://user-images.githubusercontent.com/123937106/218008460-3f60bc80-e82d-4557-a629-4c7648856e01.png">
+
+
 应用程序日志查询
 {: .fs-6 }
 
 在选项卡：日志->应用程序 中找到此模块日志面板
 记录客户端上所有应用程序的启停行为，以及应用程序路径，支持筛选
 <img width="1280" alt="yingyongchengxu2" src="https://user-images.githubusercontent.com/123937106/215987059-df0ba60b-8392-431f-9230-071d8ac29dec.png">
+
+
+软件安装策略设置
+{: .fs-6 }
+
 
 
 
