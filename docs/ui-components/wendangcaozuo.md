@@ -27,11 +27,22 @@ nav_order: 5
 {: .fs-6 }
 
 文档操作策略可以灵活多变，但如果设置不谨慎将会导致严重问题
+
 策略示例：
-- 
+- 管辖范围内的所有客户端主动删除文件时，均会将文件备份到服务器
+![image](https://user-images.githubusercontent.com/123937106/218041633-433e38ae-5d9e-4565-a8ac-a7f23a0f322d.png)
 
+策略示例：
+- 管辖范围内的所有客户端，对\\192.168.100.100\设计图纸\ 与 \\192.168.100.100\项目代码\ 目录下的文件及文件夹仅有读取权限
+![image](https://user-images.githubusercontent.com/123937106/218042114-b22d999d-fd30-42fd-91e2-b600545865e5.png)
 
+策略示例：
+- 管辖范围内的所有客户端，禁止对所有可移动盘写入文件或修改删除可移动盘文件
+![image](https://user-images.githubusercontent.com/123937106/218042615-56e25446-07ce-41b8-a324-fa3c6542bbd0.png)
 
+策略示例：
+- 管辖范围内的所有客户端，禁止使用浏览器下载文件（多数浏览器在下载文件时会先创建.download缓存文件，有些后缀可能有些不一样但基本大差不差）
+![image](https://user-images.githubusercontent.com/123937106/218042969-0756eb94-f1c8-4278-a127-1893e8576436.png)
 
 
 
