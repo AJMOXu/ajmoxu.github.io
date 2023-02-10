@@ -55,3 +55,17 @@ nav_order: 4
 
 网页浏览联动功能
 {: .fs-6 }
+
+联动文档水印功能示例：
+
+- 管辖范围内所有客户端将office、pdf、图像文件通过网络传输到带有”pan“”aliyun“”git“关键字的网址时，会自动添加水印
+![image](https://user-images.githubusercontent.com/123937106/218032245-52d665a9-7182-48a3-8580-7880bab4c6d9.png)
+
+
+联动屏幕监控功能示例：
+
+- 管辖范围内所有客户端访问到求职网站、网盘网站时，自动在其页面访问到时对屏幕进行触发式屏幕记录（默认2s一次，一共三次）
+![image](https://user-images.githubusercontent.com/123937106/218032811-fc6a7e02-e24c-44f1-8a15-4349c53c727e.png)
+
+
+
