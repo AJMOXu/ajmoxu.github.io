@@ -72,3 +72,20 @@ nav_order: 5
 
 文档操作联动功能
 {: .fs-6 }
+
+文档操作模块目前可联动屏幕记录与水印追溯
+策略示例：
+- 管辖范围内所有客户端删除文件时自动进行屏幕追踪记录（2s一次，一共3次）
+- 需要2个策略配合使用才可做到
+1. 读取和修改不记录屏幕
+![image](https://user-images.githubusercontent.com/123937106/218046541-9d47372c-f627-495a-9ff6-812ad60cea49.png)
+
+2. 读取和修改被前面一条策略覆盖了，仅有删除会匹配到屏幕记录策略
+![image](https://user-images.githubusercontent.com/123937106/218046720-a324c3c2-3ca4-4ec4-937a-7849c3fddb07.png)
+
+
+策略示例：
+- 管辖范围内所有客户端拷贝office、pdf、图像文件到U盘时，自动对文件打上水印
+- 管辖范围内所有客户端上传office、pdf、图像文件到网络盘时，自动对文件打上水印
+![image](https://user-images.githubusercontent.com/123937106/218047670-3dcf57a2-9767-4fe5-9254-6cf69581abf6.png)
+
