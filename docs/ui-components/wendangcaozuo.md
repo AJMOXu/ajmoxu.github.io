@@ -50,5 +50,25 @@ nav_order: 5
 文档操作日志查询
 {: .fs-6 }
 
+在日志->文档操作中找到文档操作对应的日志
+![image](https://user-images.githubusercontent.com/123937106/218043915-bb843230-ffa4-4539-9455-bdc6f9ea3bd6.png)
+
+文档操作日志的内容很多很杂，很多后台进程的操作行为也会被记录下来，要想筛选到有价值的数据，需要熟练使用右边的筛查项；或将所有日志导出为csv格式后使用excel进行数据处理
+
+筛查项示例：
+- 查询所有网页上传文件的行为
+![image](https://user-images.githubusercontent.com/123937106/218044421-f703d79c-8574-45a6-9c34-925d8c454c12.png)
+
+- 查询所有拷贝到U盘的行为（由于我这边是虚拟机，没有用过U盘，所以没有日志）
+![image](https://user-images.githubusercontent.com/123937106/218044614-a380b9ec-a40d-4219-8746-439e5c91f0ed.png)
+
+- 查询某个类型的文件的重命名操作
+![image](https://user-images.githubusercontent.com/123937106/218044879-96018e88-c878-4991-8bb5-cd201d071fdf.png)
+
+- 导出筛选出的数据（所有满足条件的记录即除了当页之外，筛查器筛查出来的所有日志）
+![image](https://user-images.githubusercontent.com/123937106/218045099-7201d035-9ae8-49d7-bde5-e64a4794a96f.png)
+
+
+
 文档操作联动功能
 {: .fs-6 }
