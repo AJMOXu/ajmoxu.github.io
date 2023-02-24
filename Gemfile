@@ -6,5 +6,7 @@ gem "jekyll", "~> 4.3" # installed by `gem jekyll`
 gem "just-the-docs", "0.4.0.rc4" # currently the latest pre-release
 # gem "just-the-docs"            # the latest release - currently 0.3.3
 
-gem "jekyll-search-bar"
+gem "jekyll-search-bar", group: :jekyll_plugins
+
+
 
