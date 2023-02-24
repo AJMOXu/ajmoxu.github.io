@@ -7,6 +7,6 @@ gem "just-the-docs", "0.4.0.rc4" # currently the latest pre-release
 # gem "just-the-docs"            # the latest release - currently 0.3.3
 
 source 'https://rubygems.org'
-gem 'github-pages', group: :jekyll_plugins
+gem 'github-pages'
 gem 'jekyll-search-bar'
 
