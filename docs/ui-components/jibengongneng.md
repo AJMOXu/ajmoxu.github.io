@@ -107,14 +107,18 @@ nav_order: 2
 
 <figure><img src="https://user-images.githubusercontent.com/123937106/215984895-cf62bc69-a0de-4c98-a158-8da86b8e0c72.png" alt=""><figcaption></figcaption></figure>
 
-#### 选择卸载客户端或临时清除策略（此处以卸载客户端为演示）  ![fuzhugongju2](https://user-images.githubusercontent.com/123937106/215985053-6ec3b016-9e61-4d5e-9b1f-1d7b85a449f2.png)
+#### 选择卸载客户端或临时清除策略（此处以卸载客户端为演示） &#x20;
+
+<figure><img src="https://user-images.githubusercontent.com/123937106/215985053-6ec3b016-9e61-4d5e-9b1f-1d7b85a449f2.png" alt=""><figcaption></figcaption></figure>
 
 #### 设置卸载工具各项参数，以下为演示：
 
 * 工具可用10次
 * 工具可用时间1天
 * 工具密码为123
-* 工具导出路径为 C:\Users\85471\Desktop\agttool.exe\
-  &#x20;![fuzhugongju3](https://user-images.githubusercontent.com/123937106/215985369-bd9a3baf-43a9-4a34-8e24-a1f0ccafff60.png)
+*   工具导出路径为 C:\Users\85471\Desktop\agttool.exe\
+    &#x20;
+
+    <figure><img src="https://user-images.githubusercontent.com/123937106/215985369-bd9a3baf-43a9-4a34-8e24-a1f0ccafff60.png" alt=""><figcaption></figcaption></figure>
 
 #### 将此工具拿到客户端上执行，输入正确密码即可离线卸载客户端
