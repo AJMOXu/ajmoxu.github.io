@@ -2,8 +2,8 @@
 
 * [广告位招租](README.md)
 * [HOME](index.md)
-* [docs](docs/README.md)
-  * [ui-components](docs/ui-components/README.md)
+* [IP-Guard](docs/README.md)
+  * [后端操作说明](docs/ui-components/README.md)
     * [IP-Guard](docs/ui-components/index2.md)
     * [功能介绍](docs/ui-components/buttons.md)
     * [基本功能](docs/ui-components/jibengongneng.md)
@@ -18,3 +18,4 @@
     * [应用程序](docs/ui-components/yingyongchengxu.md)
     * [邮件管控](docs/ui-components/youjian.md)
     * [资产管理](docs/ui-components/zichan.md)
+  * [各种非IPG问题处理汇总](docs/ge-zhong-fei-ipg-wen-ti-chu-li-hui-zong.md)
