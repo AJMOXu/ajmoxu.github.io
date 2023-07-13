@@ -19,3 +19,4 @@
     * [邮件管控](docs/ui-components/youjian.md)
     * [资产管理](docs/ui-components/zichan.md)
   * [各种非IPG问题处理汇总](docs/ge-zhong-fei-ipg-wen-ti-chu-li-hui-zong.md)
+  * [IPG问题记录](docs/ipg-wen-ti-ji-lu.md)
