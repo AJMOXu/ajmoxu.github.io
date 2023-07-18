@@ -22,6 +22,9 @@ nav_order: 6
 
 ## 打印日志查询
 
-*
+*   在日志→文档打印中，可以查询到文档打印日志及打印备份内容\
+
+
+    <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 打印控制联动功能 {: .fs-6 }
