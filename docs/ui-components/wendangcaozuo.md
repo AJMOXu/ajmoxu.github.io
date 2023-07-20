@@ -57,8 +57,9 @@ nav_order: 5
 
 ## 文档操作日志查询
 
-在日志->文档操作中找到文档操作对应的日志\
-&#x20;![image](https://user-images.githubusercontent.com/123937106/218043915-bb843230-ffa4-4539-9455-bdc6f9ea3bd6.png)
+在日志->文档操作中找到文档操作对应的日志
+
+<figure><img src="https://user-images.githubusercontent.com/123937106/218043915-bb843230-ffa4-4539-9455-bdc6f9ea3bd6.png" alt=""><figcaption></figcaption></figure>
 
 文档操作日志的内容很多很杂，很多后台进程的操作行为也会被记录下来，要想筛选到有价值的数据，需要熟练使用右边的筛查项；或将所有日志导出为csv格式后使用excel进行数据处理
 
