@@ -92,12 +92,16 @@ nav_order: 2
 
 * 每月1日下午13:38分自动备份上一个月的所有数据信息
 * 备份数据存储至 C:\ 盘 根目录下
-* 同时删除原有的数据，腾出主服务器存储目录空间\
-  &#x20;![shujubeifen4](https://user-images.githubusercontent.com/123937106/215960988-60503345-1696-436f-8d3d-25b635b9e1e9.png)
+*   同时删除原有的数据，腾出主服务器存储目录空间\
+    &#x20;
+
+    <figure><img src="https://user-images.githubusercontent.com/123937106/215960988-60503345-1696-436f-8d3d-25b635b9e1e9.png" alt=""><figcaption></figcaption></figure>
 
 <mark style="color:red;">需要注意的是</mark>，如果您选择了备份数据至网络路径，需要设置此策略的PC和服务器均能访问到指定网络路径
 
-在此处可加载指定备份，加载的备份不会占用主服务器存储空间，就像打开指定位置的文件一样 ![shujubeifen5](https://user-images.githubusercontent.com/123937106/215961344-70e7ed65-bfb7-4e93-ba74-d7896d6feaa2.png)
+在此处可加载指定备份，加载的备份不会占用主服务器存储空间，就像打开指定位置的文件一样&#x20;
+
+<figure><img src="https://user-images.githubusercontent.com/123937106/215961344-70e7ed65-bfb7-4e93-ba74-d7896d6feaa2.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -105,7 +109,7 @@ nav_order: 2
 
 ## 组织架构同步（LDAP，AD域等）
 
-![jiagoutongbu](https://user-images.githubusercontent.com/123937106/215961632-b39ce36f-e001-4449-bd45-252686af50c1.png)
+<figure><img src="https://user-images.githubusercontent.com/123937106/215961632-b39ce36f-e001-4449-bd45-252686af50c1.png" alt=""><figcaption></figcaption></figure>
 
 ### 组织架构同步示例（AD域）：
 
