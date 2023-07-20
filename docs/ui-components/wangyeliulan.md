@@ -12,9 +12,11 @@ nav_order: 4
 
 此模块可以控制客户端的http(s)协议流量访问哪些域名
 
+{% hint style="warning" %}
 <mark style="color:red;">**因此需要注意的是**</mark>：如果使用白名单网页访问的情况下，可能存在部分应用的http(s)流量不正常的现象。
 
 例如：微信发送图片、邮箱客户端登陆页面、部分应用二维码登录页面、部分应用内嵌页面等
+{% endhint %}
 
 ### 以下是黑名单网页策略示例：
 
@@ -22,6 +24,12 @@ nav_order: 4
     &#x20;
 
     <figure><img src="https://user-images.githubusercontent.com/123937106/218020140-eaf91812-03cd-4fa2-a1a6-2c53d3f53cdb.png" alt=""><figcaption></figcaption></figure>
+
+
+
+
+
+***
 
 ## 上传限制策略设置
 
@@ -35,6 +43,12 @@ nav_order: 4
 
     <figure><img src="https://user-images.githubusercontent.com/123937106/218021050-01b8cfcf-95f4-4be3-8e25-999a09b79d68.png" alt=""><figcaption></figcaption></figure>
 
+
+
+
+
+***
+
 ## 网页浏览日志查询
 
 在日志->网页浏览 中找到网页浏览日志
@@ -43,6 +57,10 @@ nav_order: 4
 &#x20;
 
 <figure><img src="https://user-images.githubusercontent.com/123937106/218030365-cdf31ad8-e7af-469c-8711-aad8d596fccb.png" alt=""><figcaption></figcaption></figure>
+
+
+
+***
 
 ## 网页浏览联动功能
 

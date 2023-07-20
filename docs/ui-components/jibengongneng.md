@@ -24,12 +24,18 @@ nav_order: 2
 
 
 
+***
+
 ## 基本日志查询
 
 选择菜单“日志->基本事件”查看基本事件日志，基本事件日志记录客户端系统的启动/停止，用户登录/注销，拨号，补丁管理和软件分发相关日志。\
 &#x20;
 
 <figure><img src="https://user-images.githubusercontent.com/123937106/215730143-8a880907-7624-44a2-b075-6c83fbc2b538.png" alt=""><figcaption></figcaption></figure>
+
+
+
+***
 
 ## 服务器各功能设置
 
@@ -42,6 +48,10 @@ nav_order: 2
 &#x20;&#x20;
 
 <figure><img src="https://user-images.githubusercontent.com/123937106/215958685-2c232369-ff71-453a-9a4c-0e9fe9509b60.png" alt=""><figcaption></figcaption></figure>
+
+
+
+***
 
 ### 根据账号设置审批流程
 
@@ -56,6 +66,10 @@ nav_order: 2
 <figure><img src="https://user-images.githubusercontent.com/123937106/215959307-fbf89e3b-80b1-407c-a879-a427503c39aa.png" alt=""><figcaption></figcaption></figure>
 
 <mark style="color:red;">需要注意的是</mark>，审批流程是自上而下匹配的，如一个客户端的申请有多条审批流程可匹配时，只匹配自上而下第一个符合设置的流程
+
+
+
+***
 
 ### 设置备份数据
 
@@ -85,6 +99,10 @@ nav_order: 2
 
 在此处可加载指定备份，加载的备份不会占用主服务器存储空间，就像打开指定位置的文件一样 ![shujubeifen5](https://user-images.githubusercontent.com/123937106/215961344-70e7ed65-bfb7-4e93-ba74-d7896d6feaa2.png)
 
+
+
+***
+
 ## 组织架构同步（LDAP，AD域等）
 
 ![jiagoutongbu](https://user-images.githubusercontent.com/123937106/215961632-b39ce36f-e001-4449-bd45-252686af50c1.png)
@@ -99,7 +117,13 @@ nav_order: 2
 
     <figure><img src="https://user-images.githubusercontent.com/123937106/215963016-b07b2806-a18d-4833-a7c5-f05f54d3b7e0.png" alt=""><figcaption></figcaption></figure>
 
-<mark style="color:red;">需要注意的是</mark>，用户初次登陆的客户端与用户会自动关联，此关联信息影响到此客户端在IPG的计算机组织架构中的位置，并且关联信息不会自动清除，需要手动清除 {: .text-red-300 }
+{% hint style="warning" %}
+<mark style="color:red;">需要注意的是</mark>，用户初次登陆的客户端与用户会自动关联，此关联信息影响到此客户端在IPG的计算机组织架构中的位置，并且关联信息不会自动清除，需要手动清除
+{% endhint %}
+
+
+
+***
 
 ## 客户端离线卸载与离线策略消除
 
