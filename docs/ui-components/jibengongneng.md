@@ -69,6 +69,31 @@ nav_order: 2
 
 
 
+
+
+***
+
+## 如何引用策略集
+
+### 根据策略集创建好策略
+
+点击左下方的“角色”，点击任意设置好的策略集：\
+
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+依次点击“统计”->“策略角色”->“编辑”->“计算机用户"
+
+在计算机用户中，将需要分配的策略，勾选给指定的用户或计算机
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+
+
+
+
+
+
 ***
 
 ### 设置备份数据
