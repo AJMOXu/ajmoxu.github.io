@@ -2,6 +2,7 @@
 title: 即时通讯
 parent: IP-Guard
 nav_order: 10
+icon: weixin
 ---
 
 # 即时通讯

@@ -2,6 +2,7 @@
 title: 资产管理
 parent: IP-Guard
 nav_order: 11
+icon: computer-speaker
 ---
 
 # 资产管理

@@ -2,6 +2,7 @@
 title: 网页浏览
 parent: IP-Guard
 nav_order: 4
+icon: browser
 ---
 
 # 网页浏览

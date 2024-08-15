@@ -2,6 +2,7 @@
 title: 基本功能
 parent: IP-Guard
 nav_order: 2
+icon: gear
 ---
 
 # 基本功能

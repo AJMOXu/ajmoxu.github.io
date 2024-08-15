@@ -2,6 +2,7 @@
 title: 应用程序
 parent: IP-Guard
 nav_order: 3
+icon: newspaper
 ---
 
 # 应用程序
@@ -32,9 +33,9 @@ nav_order: 3
     <figure><img src="https://user-images.githubusercontent.com/123937106/218009185-e9663926-2d22-4b4e-b222-922da0eb4be6.png" alt=""><figcaption></figcaption></figure>
 * 如图所示添加软件安装包即可
 
-&#x20;
-
 <figure><img src="https://user-images.githubusercontent.com/123937106/218009831-20e4975a-3fe8-46cf-9f61-8c1462b00aba.png" alt=""><figcaption></figcaption></figure>
+
+
 
 ## 应用程序日志查询
 

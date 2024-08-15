@@ -2,6 +2,7 @@
 title: 打印控制
 parent: IP-Guard
 nav_order: 6
+icon: print
 ---
 
 # 打印控制

@@ -2,6 +2,7 @@
 title: 邮件管控
 parent: IP-Guard
 nav_order: 9
+icon: envelope
 ---
 
 # 邮件管控

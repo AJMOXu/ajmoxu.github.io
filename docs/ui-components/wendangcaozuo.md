@@ -2,6 +2,7 @@
 title: 文档操作
 parent: IP-Guard
 nav_order: 5
+icon: file-magnifying-glass
 ---
 
 # 文档操作
