@@ -1,6 +1,6 @@
 # 🔐 文档透明加密模块操作
 
-## 加密模块UI说明
+加密模块UI说明
 
 在控制台主页上有三个部分可以用于设置和加密相关的策略和配置
 
@@ -17,3 +17,14 @@
 <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>此处进入审批流程设置</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption><p>此处设置审批账户</p></figcaption></figure>
+
+
+
+## 客户端加密权限设置
+
+1. 赋予直接解密权限，并可限制直接解密数量和范围
+
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+2.
+
