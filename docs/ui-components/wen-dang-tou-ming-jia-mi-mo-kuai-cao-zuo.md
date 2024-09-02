@@ -2,17 +2,17 @@
 
 加密模块UI说明
 
-在控制台主页上有三个部分可以用于设置和加密相关的策略和配置
+### 在控制台主页上有三个部分可以用于设置和加密相关的策略和配置
 
-1. 客户端加密权限设置位置
+#### 客户端加密权限设置位置
 
 <figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption><p>此处设置客户端策略</p></figcaption></figure>
 
-2. 加密基础设置、加密相关日志及扫描加解密功能
+#### 加密基础设置、加密相关日志及扫描加解密功能
 
 <figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>此处进入文档安全的整体管理</p></figcaption></figure>
 
-3. 解密审批流程设置
+#### 解密审批流程设置
 
 <figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>此处进入审批流程设置</p></figcaption></figure>
 
@@ -22,33 +22,33 @@
 
 ## 客户端加密权限设置
 
-#### 常规设置
+### 常规设置
 
-1. 赋予直接解密权限，并可限制直接解密数量和范围
+#### 赋予直接解密权限，并可限制直接解密数量和范围
 
 <figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
-2. 申请解密权限可以限制申请的文件类型及文件安全区域
+#### 申请解密权限可以限制申请的文件类型及文件安全区域
 
 <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-3. 申请外发文件可以限制外发时的权限基准
+#### 申请外发文件可以限制外发时的权限基准
 
 <figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
-4. 直接外发文件也可限制外发时的权限基准
+#### 直接外发文件也可限制外发时的权限基准
 
 <figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
-5. 允许提取已转换成OEAX外发格式内的文件
+#### 允许提取已转换成OEAX外发格式内的文件
 
 <figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-6. 允许申请或直接修改文档属性（修改文件安全区域）
+#### 允许申请或直接修改文档属性（修改文件安全区域）
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-7. 允许登录审批管理平台，只有登陆了审批管理平台才能执行审批解密申请等动作
+#### 允许登录审批管理平台，只有登陆了审批管理平台才能执行审批解密申请等动作
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -58,9 +58,9 @@
 
 
 
-#### 授权软件设置
+### 授权软件设置
 
-1. 授权软件分为三种操作系统对应不同的授权软件，windows支持四种加密模式，四种权限限制
+#### 授权软件分为三种操作系统对应不同的授权软件，windows支持四种加密模式，四种权限限制
 
 <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
@@ -88,9 +88,53 @@
 
 
 
-#### 安全区域设置&文档默认安全属性
+### 安全区域设置&文档默认安全属性
 
-1. 安全区域分为横向和纵向两个方向，如图左侧为横向，可自己设置，右侧为纵向，系统设置
+#### 安全区域分为横向和纵向两个方向，如图左侧为横向，可自己设置，右侧为纵向，系统设置
 
 <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+
+
+***
+
+
+
+### 文档默认属性
+
+#### 文档属性分为<mark style="color:red;">**设置权限**</mark>和<mark style="color:red;">**访问权限**</mark>
+
+{% tabs %}
+{% tab title="设置权限" %}
+指该文档的以下权限：
+
+【<mark style="color:orange;">**解密文档**</mark><mark style="color:red;">**(**</mark>[<mark style="color:red;">**需拥有解密权限**</mark>](wen-dang-tou-ming-jia-mi-mo-kuai-cao-zuo.md#fu-yu-zhi-jie-jie-mi-quan-xian-bing-ke-xian-zhi-zhi-jie-jie-mi-shu-liang-he-fan-wei)<mark style="color:red;">**)**</mark>】
+
+【<mark style="color:orange;">**更改文档安全属性**</mark><mark style="color:red;">**(**</mark>[<mark style="color:red;">**需拥有对应权限**</mark>](wen-dang-tou-ming-jia-mi-mo-kuai-cao-zuo.md#yun-xu-shen-qing-huo-zhi-jie-xiu-gai-wen-dang-shu-xing-xiu-gai-wen-jian-an-quan-qu-yu)<mark style="color:red;">**)**</mark>】
+
+【<mark style="color:orange;">**分发文档权限到用户**</mark>】
+
+只有在[安全区域中设置](wen-dang-tou-ming-jia-mi-mo-kuai-cao-zuo.md#an-quan-qu-yu-she-zhi-wen-dang-mo-ren-an-quan-shu-xing)了为对应安全区域权限的人员<mark style="color:red;">才能操作设置权限为对应安全区域的文档</mark>
+{% endtab %}
+
+{% tab title="访问权限" %}
+指该文档的以下权限：
+
+【读取】
+
+【修改】
+
+【拷贝】
+
+【删除】
+
+可供哪些人员操作，例如访问权限中有 【公共】-【普通】 则所有加密域内的用户都可以正常使用该文档，若提升为 【公共】-【机密】 则只有机密权限的人员能够查阅和使用该文档
+{% endtab %}
+{% endtabs %}
+
+#### 文档属性设置策略演示
+
+如图所示，策略是从上往下匹配的，如图所示，对终端上产生的 txt文本文件 加密时赋予【公共】-【普通】权限；对终端上产生的 pdf文件 加密时赋予【财务部】-【普通】权限；
+
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption><p>此时即使序号2加上*.txt，最终产生的txt加密文件也是公共+普通</p></figcaption></figure>
 
