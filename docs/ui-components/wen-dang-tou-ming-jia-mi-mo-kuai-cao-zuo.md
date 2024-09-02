@@ -22,6 +22,8 @@
 
 ## 客户端加密权限设置
 
+<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption><p>策略设置位置</p></figcaption></figure>
+
 ### 常规设置
 
 #### 赋予直接解密权限，并可限制直接解密数量和范围
@@ -143,3 +145,14 @@
 {% endhint %}
 
 ***
+
+
+
+## 加密后端基础设置、加密相关日志及扫描加解密功能
+
+<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption><p>策略设置位置</p></figcaption></figure>
+
+
+
+### 授权软件
+
