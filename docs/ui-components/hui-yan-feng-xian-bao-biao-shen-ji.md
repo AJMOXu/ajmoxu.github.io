@@ -1,4 +1,18 @@
-# 慧眼风险报表审计
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
+# 📊 慧眼风险报表审计
 
 ## 报表UI说明
 
