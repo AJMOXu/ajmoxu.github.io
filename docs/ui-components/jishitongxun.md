@@ -50,6 +50,41 @@ icon: weixin
 接收文件备份不支持触发屏幕记录
 {% endhint %}
 
+
+
+***
+
+
+
 ## 即时通讯日志查询
 
-## 即时通讯联动功能
+### 查询用户通过什么IM工具发送了哪些内容
+
+*   在【监视】→【即时通讯】中，默认会展示最近30天的聊天记录，如需查找指定时间段或更长时间的，在右侧筛选框中选择对应的功能\
+
+
+    <figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+*   如需查找特定的文字内容或者文件，在右边筛选框的【内容】项中，输入关键字即可，默认模糊匹配，支持文件名
+
+    <figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+
+***
+
+
+
+## 微信当前不再支持默认的记录方式
+
+### 当前支持的微信记录方式
+
+* 利用【屏幕记录】，记录【wechat.exe】运行时的所有屏幕内容
+* 利用【上传备份】，记录【wechat.exe】上传的所有文件
+
+#### 屏幕记录策略示例
+
+<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+
+#### 上传备份策略示例
+
+<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+
+***
