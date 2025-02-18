@@ -18,6 +18,7 @@
     * [应用程序](docs/ui-components/yingyongchengxu.md)
     * [邮件管控](docs/ui-components/youjian.md)
     * [资产管理](docs/ui-components/zichan.md)
+    * [慧眼风险报表审计](docs/ui-components/hui-yan-feng-xian-bao-biao-shen-ji.md)
     * [🔐 文档透明加密模块操作](docs/ui-components/wen-dang-tou-ming-jia-mi-mo-kuai-cao-zuo.md)
   * [各种非IPG问题处理汇总](docs/ge-zhong-fei-ipg-wen-ti-chu-li-hui-zong.md)
   * [IPG问题记录](docs/ipg-wen-ti-ji-lu.md)
