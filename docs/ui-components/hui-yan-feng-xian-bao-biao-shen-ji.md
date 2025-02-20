@@ -57,7 +57,7 @@ layout:
 *   用于发现某一个时间段是否有大批量的上传，例如：发现某一日某个用户的上传日志超出平均值很多\
 
 
-    <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 * 用于评估内网的平均上传大小，获取到合适的数据用于【征兆表】的创建
 
 #### 如何创建趋势表
@@ -65,7 +65,7 @@ layout:
 *   右键报表分组，新建报表，选择【从查询条件创建】\
 
 
-    <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 *   选择需要创建的趋势表，例如这里我想筛选文档操作相关的日志，就选【标准文档操作趋势表】\
 
 
@@ -73,23 +73,23 @@ layout:
 *   筛选感兴趣的日志，例如截图中筛选的是所有删除用户手动删除的日志。然后点击【下一步】\
 
 
-    <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 *   选择统计单位（时间间隔，最短一天）和统计类型（统计用户的行为，还是计算机行为）然后【下一步】\
 
 
-    <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 *   选择报表统计的周期时间，这里选择【标准月】即可，然后【下一步】\
 
 
-    <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 *   命名报表名称，然后点击【完成】\
 
 
-    <figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 *   创建后不会自动立即统计过往数据，需要到【报表】-【生成历史报表】-选择刚创建的报表-选择生成的时间范围，保存后才能开始统计过往数据（统计需要时间）\
 
 
-    <figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -101,7 +101,7 @@ layout:
 
 *   用于直观的看到一段时间内的各项数据的总数据大小，例如图中展示的是2024年11月的删除、上传、下载文件数量和大小
 
-    <figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 *   结合【资产管理模块】，统计内网软硬件资产\
 
 
@@ -158,4 +158,19 @@ layout:
     <figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 
     <figure><img src="../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+*   配置邮件报告，首先配置SMTP，回到控制台主页，选择【工具】-【选项】-【邮件报告服务器设置】\
 
+
+    <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+    <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+*   设置好SMTP之后，回到报表控制台，上方菜单栏选择【报表】-【邮件报告】，然后以此设置收件人地址，邮件标题，以及要发送的报表\
+
+
+    <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+    <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+***
+
+## 暂时先到这，有需要补充的联系我
