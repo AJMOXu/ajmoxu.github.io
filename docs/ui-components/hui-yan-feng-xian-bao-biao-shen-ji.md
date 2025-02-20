@@ -14,7 +14,7 @@ layout:
 
 # 📊 慧眼风险报表审计
 
-## 报表UI说明
+报表UI说明
 
 *   实用的几个功能都集中在上方导航栏的【报表】选项栏中\
 
@@ -124,4 +124,38 @@ layout:
 
 #### 征兆表用途场景
 
-* 根据趋势表中获取的数据
+* 根据[趋势表中获取的数据平均值](hui-yan-feng-xian-bao-biao-shen-ji.md#qu-shi-biao-yong-tu-chang-jing)，来制定平均水平线，设定超过该平均线的行为是危险行为，并自动统计到日报，结合邮件报告隔日提醒
+* 设定黑名单或白名单上传地址，用户一旦有黑名单或白名单之外的操作自动统计为危险行为，结合邮件报告隔日提醒
+
+#### 如何创建征兆表
+
+*   需要先制定征兆行为（既风险行为），选择【报表】-【征兆条件设置】\
+
+
+    <figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+*   选择【增加】，根据日志数据类型创建征兆条件，这里依旧选择文档操作日志为基准
+
+    <figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+*   设定【1分钟内】删除文件超过50个或删除文件大小大于5GB为严重风险行为。同时在【过滤条件】中限定【应用程序包含】-【explorer.exe】和【操作类型】-【删除】
+
+    <figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+
+    <figure><img src="../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+
+    <figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+*   右键征兆报表组，创建征兆报表\
+
+
+    <figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+* 选择【标准征兆事件统计表】创建，条件设置选择【1分钟内删除文件超过50个】，并且由于只选择了一个征兆条件，故统计设置中，统计类型选择【计算机+征兆级别统计】即可，如果有多个统计条件，则可以勾选【按征兆类型+征兆级别】或【计算机\用户+征兆类型】进行统计
+*   周期选择【标准日】\
+
+
+    <figure><img src="../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+
+    <figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+
+    <figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+
+    <figure><img src="../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+
