@@ -34,7 +34,7 @@ icon: weixin
 *   备份所有IM工具发送的文件和图片，并记录外发时的屏幕\
 
 
-    <figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 *   备份所有IM工具接收的文件和图片\

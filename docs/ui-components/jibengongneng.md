@@ -87,7 +87,7 @@ icon: gear
 
 在计算机用户中，将需要分配的策略，勾选给指定的用户或计算机
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
