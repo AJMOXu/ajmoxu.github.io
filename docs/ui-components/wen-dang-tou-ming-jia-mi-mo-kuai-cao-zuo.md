@@ -10,7 +10,7 @@
 
 #### 加密基础设置、加密相关日志及扫描加解密功能
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>此处进入文档安全的整体管理</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>此处进入文档安全的整体管理</p></figcaption></figure>
 
 #### 解密审批流程设置
 
@@ -52,7 +52,7 @@
 
 #### 允许登录审批管理平台，只有登陆了审批管理平台才能执行审批解密申请等动作
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -144,13 +144,21 @@
 同一个<mark style="color:red;">**文件**</mark>只能归属于<mark style="color:red;">**一个加密区间**</mark>
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 如图所示，策略是从上往下匹配的，对终端上产生的 txt文本文件 加密时赋予【公共】-【普通】权限；对终端上产生的 pdf文件 加密时赋予【财务部】-【普通】权限；
 
 <figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption><p>此时即使序号2加上*.txt，最终产生的txt加密文件也是公共+普通</p></figcaption></figure>
 
-z
+同一个加密区间内，可以有不同的加密等级，加密等级从低到高分列
+
+{% hint style="info" %}
+同样的，同一个<mark style="color:red;">**计算机**</mark>可以属于<mark style="color:red;">**多个不同加密区间的多个等级**</mark>（如存在同一区间内的多个等级，取最高等级）
+
+同一个<mark style="color:red;">**文件**</mark>只能属于<mark style="color:red;">**一个加密区间的单个等级**</mark>
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 一般不建议把属性搞得太复杂，不然系统后期运维工作量巨大

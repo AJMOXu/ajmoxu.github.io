@@ -26,7 +26,7 @@ icon: print
 *   在日志→文档打印中，可以查询到文档打印日志及打印备份内容\
 
 
-    <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 打印控制联动功能
 
