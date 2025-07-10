@@ -150,6 +150,8 @@
 
 <figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption><p>此时即使序号2加上*.txt，最终产生的txt加密文件也是公共+普通</p></figcaption></figure>
 
+z
+
 {% hint style="warning" %}
 一般不建议把属性搞得太复杂，不然系统后期运维工作量巨大
 {% endhint %}
