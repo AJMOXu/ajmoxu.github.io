@@ -256,7 +256,6 @@
 
 先确认申请人所属组的组织架构是否存在
 
-
+<div align="left"><figure><img src="../../.gitbook/assets/image (56).png" alt="" width="203"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}
 {% endstepper %}
-
