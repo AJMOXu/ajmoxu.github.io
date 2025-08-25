@@ -159,4 +159,54 @@
 
 ***
 
-## 暂时先到这，有需要补充的联系我
+
+
+
+
+## 如何制作邮件报告
+
+### 制作解密文件统计报告
+
+#### 配置SMTP信息
+
+* 先配置报告服务器的SMTP信息，才能使服务器发送邮件
+
+<div align="left"><figure><img src="../../.gitbook/assets/image (41).png" alt="" width="144"><figcaption></figcaption></figure></div>
+
+<figure><img src="../../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
+
+### 创建解密统计报表
+
+* 报表可以根据特定计算机范围/特定用户范围的特定操作进行统计并展现，以下是统计某个部门的所有解密文档日志的周报生成步骤
+
+<figure><img src="../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (48).png" alt=""><figcaption><p>默认周报是周二统计上周的，不是周一</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (49).png" alt=""><figcaption><p>这里自己手动命名一下，方便后续管理和区分</p></figcaption></figure>
+
+{% hint style="info" %}
+刚创建好的报表不会直接去统计数据，而是等生成报表的时间到了才开始统计，如果想立即执行统计，选择生成历史报表
+
+<img src="../../.gitbook/assets/image (50).png" alt="" data-size="original">![](<../../.gitbook/assets/image (54).png>)
+{% endhint %}
+
+
+
+
+
+* 到这里，报表已经建立好了，接下来配置邮件报告
+
+<figure><img src="../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+之后只需要等待报表统计时间到，报表会自动进行统计并发送邮件
+{% endhint %}
