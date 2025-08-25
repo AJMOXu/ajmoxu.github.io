@@ -10,7 +10,7 @@
 
 #### 加密基础设置、加密相关日志及扫描加解密功能
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>此处进入文档安全的整体管理</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>此处进入文档安全的整体管理</p></figcaption></figure>
 
 #### 解密审批流程设置
 
@@ -52,7 +52,7 @@
 
 #### 允许登录审批管理平台，只有登陆了审批管理平台才能执行审批解密申请等动作
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -144,7 +144,7 @@
 同一个<mark style="color:red;">**文件**</mark>只能归属于<mark style="color:red;">**一个加密区间**</mark>
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 如图所示，策略是从上往下匹配的，对终端上产生的 txt文本文件 加密时赋予【公共】-【普通】权限；对终端上产生的 pdf文件 加密时赋予【财务部】-【普通】权限；
 
@@ -158,7 +158,9 @@
 同一个<mark style="color:red;">**文件**</mark>只能属于<mark style="color:red;">**一个加密区间的单个等级**</mark>
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
+
+
 
 {% hint style="warning" %}
 一般不建议把属性搞得太复杂，不然系统后期运维工作量巨大
@@ -172,7 +174,64 @@
 
 <figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption><p>策略设置位置</p></figcaption></figure>
 
+***
 
 
-### 授权软件
 
+## 审批流程设置
+
+### 审批流程基本组成部分
+
+| 申请人               | 审批流程                 | 审批人                                      |
+| ----------------- | -------------------- | ---------------------------------------- |
+| 此对象包含控制台可选的计算机/用户 | 此对象用于引导申请人的解密申请到达审批人 | 此对象包含控制台设置的管理员账户/或对接企业微信、钉钉后在控制台设置的管理员账户 |
+
+### 审批流程制作规范
+
+{% columns fullWidth="false" %}
+{% column %}
+申请人部分：
+
+组织架构需要与实际业务部门有镜像关系，确保选择申请人时，能够选择到正确的申请人。
+
+除特殊要求外，应<mark style="color:red;">**避免出现单个申请人或多个独立的申请人**</mark>的情况，以免影响后续运维工作
+{% endcolumn %}
+
+{% column %}
+正确的申请人选择界面：
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+{% columns %}
+{% column %}
+审批流程命名：
+
+命名标准 <mark style="color:red;">**`【部门名称】{审批人}{审批等级}审批流程`**</mark>
+
+应确保能够通过审批流程名称，轻松获取该审批流程执行的内容
+{% endcolumn %}
+
+{% column %}
+标准审批流程命名规范演示：
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+{% columns %}
+{% column %}
+审批人账户规范：
+
+命名标准：<mark style="color:red;">**`{账号名称}|{负责审批区域}`**</mark>
+
+应确保能够根据所属审批区域直接搜索出该区域所负责的审批人员，因此账户备注需要写明所属审批区域
+{% endcolumn %}
+
+{% column %}
+标准审批账号命名规范演示：
+
+<figure><img src="../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
