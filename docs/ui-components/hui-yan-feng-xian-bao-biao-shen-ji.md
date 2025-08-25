@@ -51,7 +51,7 @@
 *   右键报表分组，新建报表，选择【从查询条件创建】\
 
 
-    <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 *   选择需要创建的趋势表，例如这里我想筛选文档操作相关的日志，就选【标准文档操作趋势表】\
 
 
@@ -59,15 +59,15 @@
 *   筛选感兴趣的日志，例如截图中筛选的是所有删除用户手动删除的日志。然后点击【下一步】\
 
 
-    <figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 *   选择统计单位（时间间隔，最短一天）和统计类型（统计用户的行为，还是计算机行为）然后【下一步】\
 
 
-    <figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 *   选择报表统计的周期时间，这里选择【标准月】即可，然后【下一步】\
 
 
-    <figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 *   命名报表名称，然后点击【完成】\
 
 
@@ -147,15 +147,15 @@
 *   配置邮件报告，首先配置SMTP，回到控制台主页，选择【工具】-【选项】-【邮件报告服务器设置】\
 
 
-    <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 *   设置好SMTP之后，回到报表控制台，上方菜单栏选择【报表】-【邮件报告】，然后以此设置收件人地址，邮件标题，以及要发送的报表\
 
 
-    <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
