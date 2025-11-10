@@ -10,11 +10,11 @@
 
 #### 加密基础设置、加密相关日志及扫描加解密功能
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>此处进入文档安全的整体管理</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>此处进入文档安全的整体管理</p></figcaption></figure>
 
 #### 解密审批流程设置
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>此处进入审批流程设置</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>此处进入审批流程设置</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>此处设置审批账户</p></figcaption></figure>
 
@@ -52,7 +52,7 @@
 
 #### 允许登录审批管理平台，只有登陆了审批管理平台才能执行审批解密申请等动作
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -64,7 +64,7 @@
 
 #### 授权软件分为三种操作系统对应不同的授权软件，windows支持四种加密模式，四种权限限制
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 需要注意的是：禁止截屏后，任何<mark style="color:red;">已打开的授权软件</mark>均会导致截屏时黑屏；禁止复制粘贴后，仅是禁止了授权软件到<mark style="color:red;">非授权软件</mark>之间的复制粘贴，授权软件之间的复制粘贴还是正常的。
@@ -144,7 +144,7 @@
 同一个<mark style="color:red;">**文件**</mark>只能归属于<mark style="color:red;">**一个加密区间**</mark>
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 如图所示，策略是从上往下匹配的，对终端上产生的 txt文本文件 加密时赋予【公共】-【普通】权限；对终端上产生的 pdf文件 加密时赋予【财务部】-【普通】权限；
 
@@ -200,7 +200,7 @@
 {% column %}
 正确的申请人选择界面：
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -216,7 +216,7 @@
 {% column %}
 标准审批流程命名规范演示：
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -248,7 +248,7 @@
 
 根据[命名规范](wen-dang-tou-ming-jia-mi-mo-kuai-cao-zuo.md#shen-pi-liu-cheng-zhi-zuo-gui-fan)创建账户，并勾选审批权限
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -260,15 +260,15 @@
 
 依次点【申请管理】->【加密申请管理->【审批流程管理】
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 点击<mark style="color:red;">**红色+号**</mark>新建审批流程
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 根据[命名规范](wen-dang-tou-ming-jia-mi-mo-kuai-cao-zuo.md#shen-pi-liu-cheng-zhi-zuo-gui-fan)，设置流程名称，并选择[申请人](wen-dang-tou-ming-jia-mi-mo-kuai-cao-zuo.md#shen-pi-liu-cheng-ji-ben-zu-cheng-bu-fen)
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 一直下一步直到环节设置，添加审批人，此处可搜索，搜索内容包含账户备注
 

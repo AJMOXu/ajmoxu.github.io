@@ -22,6 +22,16 @@ description: 总结：审计大于加密，加密为审计服务
 {% step %}
 ### 安装服务器
 
+服务器版本选择：能使用Windows Server 2019 / 2022 datacenter最好（因需要脚本部署）\
+下载链接：[https://go.microsoft.com/fwlink/p/?LinkID=2195167\&clcid=0x804\&culture=zh-cn\&country=CN](https://go.microsoft.com/fwlink/p/?LinkID=2195167\&clcid=0x804\&culture=zh-cn\&country=CN)
+
+\
+数据库版本选择：使用 SQL Server 2019 /2022 版本，可使用免费的Express版本\
+下载链接：[https://download.microsoft.com/download/7/f/8/7f8a9c43-8c8a-4f7c-9f92-83c18d96b681/SQL2019-SSEI-Expr.exe](https://download.microsoft.com/download/7/f/8/7f8a9c43-8c8a-4f7c-9f92-83c18d96b681/SQL2019-SSEI-Expr.exe)\
+数据库下载后需手动选择下载安装介质：\
+![](../../.gitbook/assets/image.png)\
+![](<../../.gitbook/assets/image (1).png>)
+
 
 {% endstep %}
 
