@@ -249,7 +249,7 @@ start \\172.16.200.10\temp\agt-c.exe /qn
 {% endtab %}
 
 {% tab title="没有加密" %}
-
+1此种情况下需要看客户的配合程度，
 {% endtab %}
 {% endtabs %}
 {% endstep %}
