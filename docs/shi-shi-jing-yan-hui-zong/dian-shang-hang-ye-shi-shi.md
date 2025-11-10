@@ -267,45 +267,10 @@ start \\172.16.200.10\temp\agt-c.exe /qn
 
 <figure><img src="../../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
 
-1自动安装脚本执行程序指向共享目录中的Agent.exe即可
+自动安装脚本执行程序指向共享目录中的Agent.exe即可
 
 {% hint style="warning" %}
 安装时，请注意收集MAC地址和人员信息，以防后续整理后台安装名单时，出现漏装的客户端或无法分辨哪个电脑是哪个用户在使用。如现场安装时可打印表格，并让相关用户签字
 {% endhint %}
 {% endstep %}
-
-{% step %}
-### 后台整理名单
-{% endstep %}
-
-{% step %}
-###
-
-
-{% endstep %}
-
-{% step %}
-
-
-
-{% endstep %}
-
-{% step %}
-### 检查审计日志
-
-
-{% endstep %}
-
-{% step %}
-### 数据分析分类
-
-
-{% endstep %}
-
-{% step %}
-### 数据汇总报告
-
-
-{% endstep %}
 {% endstepper %}
-
