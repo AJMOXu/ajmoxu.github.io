@@ -22,8 +22,11 @@ description: 总结：审计大于加密，加密为审计服务
 {% step %}
 ### 安装服务器
 
+{% tabs %}
+{% tab title="主服务器" %}
 服务器版本选择：能使用Windows Server 2019 / 2022 datacenter最好（因需要脚本部署）\
-下载链接：[https://go.microsoft.com/fwlink/p/?LinkID=2195167\&clcid=0x804\&culture=zh-cn\&country=CN](https://go.microsoft.com/fwlink/p/?LinkID=2195167\&clcid=0x804\&culture=zh-cn\&country=CN)
+下载链接：[https://go.microsoft.com/fwlink/p/?LinkID=2195167\&clcid=0x804\&culture=zh-cn\&country=CN](https://go.microsoft.com/fwlink/p/?LinkID=2195167\&clcid=0x804\&culture=zh-cn\&country=CN)\
+服务器配置要求：[https://learn.microsoft.com/zh-cn/windows-server/get-started/hardware-requirements?tabs=cpu\&pivots=windows-server-2019](https://learn.microsoft.com/zh-cn/windows-server/get-started/hardware-requirements?tabs=cpu\&pivots=windows-server-2019)
 
 \
 数据库版本选择：使用 SQL Server 2019 /2022 版本，可使用免费的Express版本\
@@ -31,6 +34,21 @@ description: 总结：审计大于加密，加密为审计服务
 数据库下载后需手动选择下载安装介质：\
 ![](../../.gitbook/assets/image.png)\
 ![](<../../.gitbook/assets/image (1).png>)
+
+
+
+安装注意事项：
+
+* 推荐使用运行盘+数据盘的部署方式，即操作系统和主服务器安装在运行盘，数据定期转移到数据盘
+* 安装时应注意设置混合登陆模式并设置sa账户密码
+{% endtab %}
+
+{% tab title="Tab 2" %}
+
+{% endtab %}
+{% endtabs %}
+
+
 
 
 {% endstep %}
