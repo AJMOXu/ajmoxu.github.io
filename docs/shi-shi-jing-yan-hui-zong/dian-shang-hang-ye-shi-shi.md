@@ -99,9 +99,120 @@ exit;
 服务器版本：推荐使用Ubuntu 20以上的操作系统版本，使用rufus封装镜像到U盘安装操作系统\
 镜像下载链接(Ubuntu 24.04)：[https://ubuntu.com/download/desktop/thank-you?version=24.04.3\&architecture=amd64\&lts=true](https://ubuntu.com/download/desktop/thank-you?version=24.04.3\&architecture=amd64\&lts=true)
 
+按照文档安装即可，其他无要求，缺少相关软件时注意更换为国内下载源
 
+1安装完之后需要配置数据同步范围，默认只有30天的同步范围，如果想扩展，则需要进行以下更改
+
+1. 设置服务器保留日志数据库时间范围
+
+{% code overflow="wrap" %}
+```batch
+--设置配置
+USE [OCULAR3]
+DECLARE @SC_INT int
+DECLARE @SC_STR NVARCHAR(255)
+SET @SC_INT = 2
+SET @SC_STR = N'
+<DATA>
+    <DAYS>30</DAYS>
+</DATA>'
+IF EXISTS (SELECT * FROM SYS_CFG WHERE SC_NAME =N'DataLoadMode')
+    UPDATE SYS_CFG SET SC_INT = @SC_INT, SC_STR = @SC_STR WHERE SC_NAME = N'DataLoadMode'
+ELSE
+    INSERT INTO SYS_CFG(SC_NAME, SC_INT, SC_STR) VALUES(N'DataLoadMode', @SC_INT, @SC_STR)
+--查看配置
+SELECT * FROM SYS_CFG WHERE SC_NAME = N'DataLoadMode'
+SC_INT设置加载模式，
+SC_INT为0时表示不加载，
+SC_INT为1时表示加载所有的，
+SC_INT为2时表示加载最近多少天内的日志数据库，加载的天数从SC_STR读取，SC_STR是一个XML结构，如上述SQL语句中所写。
+SC_INT为3时表示加载某段日期内的日志数据库，加载的日期范围从SC_STR读取，SC_STR是一个XML结构，形如：
+
+<DATA>
+    <FROM>20130201</FROM>
+    <TO>20130310</TO>
+</DATA>
+```
+{% endcode %}
+
+2. 批量附加数据库
+
+{% code overflow="wrap" %}
+```batch
+SET NOCOUNT ON
+USE [OCULAR3]
+GO
+
+IF EXISTS (SELECT * FROM SYSOBJECTS WHERE [name] = 'p_BatchAttachDB' AND [xtype] = 'P')
+	DROP PROCEDURE [p_BatchAttachDB]
+GO
+
+CREATE PROCEDURE [p_BatchAttachDB] @dateBegin DATETIME, @dateEnd DATETIME, @dir NVARCHAR(255)
+AS
+BEGIN
+	IF RIGHT(@dir, 1) <> '\'
+		SET @dir = @dir + '\'
+	PRINT N'当前数据目录：' + @dir
+	PRINT N'-----------------------'
+
+	DECLARE @DATE DATETIME
+	DECLARE @CURDATE INT
+	DECLARE @CURINDEX INT
+	DECLARE @DBNAME NVARCHAR(255)
+	DECLARE @FILENAME NVARCHAR(255)
+	DECLARE @ISEXISTS INT
+	SET @DATE=@dateBegin
+	WHILE (@DATE<=@dateEnd)
+	BEGIN
+		SET @CURDATE=YEAR(@DATE)*10000+MONTH(@DATE)*100+DAY(@DATE)
+		SET @CURINDEX = -1
+		WHILE @CURINDEX < 8
+		BEGIN
+			IF @CURINDEX = -1
+				SET @DBNAME='OCULAR3_DATA.'+CAST(@CURDATE AS NVARCHAR(8))
+			ELSE
+				SET @DBNAME='OCULAR3_DATA.'+CAST(@CURDATE AS NVARCHAR(8)) + '.' + CAST(@CURINDEX AS NVARCHAR(1))
+
+			SET @FILENAME=@dir+@DBNAME+'.MDF'
+			EXEC master.dbo.xp_fileexist @FILENAME, @ISEXISTS OUTPUT
+			IF @ISEXISTS = 1
+			BEGIN
+				IF NOT EXISTS(SELECT * FROM MASTER.DBO.SYSDATABASES WHERE NAME = @DBNAME)
+					EXEC SP_ATTACH_DB @DBNAME, @FILENAME
+				PRINT @DBNAME + '已附加'
+			END
+			SET @CURINDEX = @CURINDEX + 1
+		END
+		SET @DATE=@DATE+1
+	END
+END
+GO
+
+--自定义
+DECLARE @B_DATE DATETIME
+DECLARE @E_DATE DATETIME
+DECLARE @DIR NVARCHAR(255)
+SET @B_DATE = '2013-06-01'			-- 起始日期
+SET @E_DATE = '2013-06-23'			-- 结束日期
+SET @DIR = N'E:\OServer3\DATA\'		-- DATA目录
+EXEC [p_BatchAttachDB] @B_DATE, @E_DATE, @DIR
+GO
+
+IF EXISTS (SELECT * FROM SYSOBJECTS WHERE [name] = 'p_BatchDetachDB' AND [xtype] = 'P')
+	DROP PROCEDURE [p_BatchDetachDB]
+GO
+```
+{% endcode %}
+
+4
 {% endtab %}
 {% endtabs %}
+
+
+
+
+
+
 
 
 
