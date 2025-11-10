@@ -249,7 +249,9 @@ start \\172.16.200.10\temp\agt-c.exe /qn
 {% endtab %}
 
 {% tab title="没有加密" %}
-1此种情况下需要看客户的配合程度，
+此种情况下需要看客户的配合程度，让客户收集所有终端的密码和人员、座位信息，在下班时间安装客户端。
+
+如果客户能参与进来，共同推动客户端安装最好
 {% endtab %}
 {% endtabs %}
 {% endstep %}
@@ -257,11 +259,33 @@ start \\172.16.200.10\temp\agt-c.exe /qn
 {% step %}
 ### 执行部署动作
 
+注意生成客户端时，尽量选择最新版本客户端，并一定要勾选高级设置中的独立打包安装配置信息和提升UAC权限，并勾选静默安装
 
+<figure><img src="../../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
+
+如此生成的客户端安装包会有三个文件，将这三个文件放到同一目录下并共享
+
+<figure><img src="../../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
+
+1自动安装脚本执行程序指向共享目录中的Agent.exe即可
+
+{% hint style="warning" %}
+安装时，请注意收集MAC地址和人员信息，以防后续整理后台安装名单时，出现漏装的客户端或无法分辨哪个电脑是哪个用户在使用。如现场安装时可打印表格，并让相关用户签字
+{% endhint %}
 {% endstep %}
 
 {% step %}
 ### 后台整理名单
+{% endstep %}
+
+{% step %}
+###
+
+
+{% endstep %}
+
+{% step %}
+
 
 
 {% endstep %}
