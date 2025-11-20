@@ -90,9 +90,9 @@ exit;
 ```
 {% endcode %}
 
-111\.
-
-1
+可以在www\ipg\config.ini添加以下配置可自定义浏览器标签标题\
+\[signin\_banner]\
+title=xxx
 {% endtab %}
 
 {% tab title="数据分析预警服务器" %}
