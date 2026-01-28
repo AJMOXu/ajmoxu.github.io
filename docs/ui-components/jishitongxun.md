@@ -16,8 +16,7 @@ icon: weixin
 #### 策略示例
 
 *   禁止除了【企业微信】外，所有IM工具发送文件\
-    \
-
+    <br>
 
     <figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
@@ -31,16 +30,14 @@ icon: weixin
 
 #### IM工具 发送文件 和 接收文件 备份策略示例
 
-*   备份所有IM工具发送的文件和图片，并记录外发时的屏幕\
+*   备份所有IM工具发送的文件和图片，并记录外发时的屏幕<br>
+
+    <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
-    <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+*   备份所有IM工具接收的文件和图片<br>
 
-
-*   备份所有IM工具接收的文件和图片\
-
-
-    <figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 备份接收的文件和图片流量可能会很大
@@ -60,8 +57,7 @@ icon: weixin
 
 ### 查询用户通过什么IM工具发送了哪些内容
 
-*   在【监视】→【即时通讯】中，默认会展示最近30天的聊天记录，如需查找指定时间段或更长时间的，在右侧筛选框中选择对应的功能\
-
+*   在【监视】→【即时通讯】中，默认会展示最近30天的聊天记录，如需查找指定时间段或更长时间的，在右侧筛选框中选择对应的功能<br>
 
     <figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 *   如需查找特定的文字内容或者文件，在右边筛选框的【内容】项中，输入关键字即可，默认模糊匹配，支持文件名

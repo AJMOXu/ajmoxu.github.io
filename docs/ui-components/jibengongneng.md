@@ -40,7 +40,7 @@ icon: gear
 
 ## 服务器各功能设置
 
-### 设置管理员账号 
+### 设置管理员账号<br>
 
 <figure><img src="https://user-images.githubusercontent.com/123937106/215958079-56274cbb-fc70-46d5-9fba-a43ea91b0820.png" alt=""><figcaption></figcaption></figure>
 
@@ -78,16 +78,15 @@ icon: gear
 
 ### 根据策略集创建好策略
 
-点击左下方的“角色”，点击任意设置好的策略集：\
+点击左下方的“角色”，点击任意设置好的策略集：<br>
 
-
-<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 依次点击“统计”->“策略角色”->“编辑”->“计算机用户"
 
 在计算机用户中，将需要分配的策略，勾选给指定的用户或计算机
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
